@@ -1,0 +1,11 @@
+/* TEAM */
+
+Developer: Jonathan Yu
+Site: https://jon.imaginary.ca
+Twitter: @jawnsy
+LinkedIn: https://linkedin.com/in/jawnsy
+Location: Toronto, Canada
+							
+/* THANKS */
+
+Matt Boldt: me@mattboldt.com
