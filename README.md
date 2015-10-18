@@ -8,6 +8,8 @@ Introduction
 jQuery plugin as a Polymer Custom Element.  It has no dependencies except
 Polymer itself.
 
+![Animated Demonstration Image](/demo.gif)
+
 Installation
 ------------
 
