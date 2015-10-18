@@ -1,0 +1,22 @@
+{
+  "name": "typed-text",
+  "description": "typed.js as a Polymer custom element",
+  "version": "0.0.1",
+  "main": "src/typed-text.html",
+  "author": {
+    "name": "Jonathan Yu",
+    "email": "jonathan.i.yu@gmail.com",
+    "url": "https://jon.imaginary.ca"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.6.3",
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.10"
+  },
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  }
+}
