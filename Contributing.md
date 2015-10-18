@@ -1,4 +1,5 @@
-# Contributing to typed-text
+Contributing to typed-text
+==========================
 
 Contributions to this project (in the form of bug reports, patches, or pull
 requests) are gratefully accepted by the maintainer.
@@ -12,7 +13,8 @@ This can be done simply by adding a line saying:
 using your real name (sorry, no pseudonyms or anonymous contributions.)
 Git can do this automatically using: `git commit --signoff`
 
-## Developer Ceritifcate of Origin
+Developer Ceritifcate of Origin
+-------------------------------
 
     Developer Certificate of Origin
     Version 1.1
