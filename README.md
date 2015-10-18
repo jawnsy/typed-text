@@ -16,6 +16,23 @@ Installation
 Usage
 -----
 
+Import the component:
+
+````html
+
+<link rel="import" href="components/jawnsy/typed-text/typed-text.html">
+
+````
+
+Then simply use the `typed-text` custom element, specifying an array of
+strings to cycle through.
+
+````html
+
+<typed-text strings='[ "hello", "world", "foo", "bar" ]'></typed-text>
+
+````
+
 Caveats
 -------
 

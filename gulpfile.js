@@ -19,6 +19,12 @@ gulp.task("watch", [
   "build",
   "browserSync"
 ], function() {
+  gulp.watch("examples/**", function() {
+    gulp.src("examples/**")
+      .pipe(gulp.dest("build/"));
+    browserSync.reload();
+  });
+
   gulp.watch("src/**", function() {
     gulp.src("src/**")
       .pipe(gulp.dest("build/components/jawnsy/typed-text"));
@@ -29,6 +35,9 @@ gulp.task("watch", [
 gulp.task("build", [
   "dependencies"
 ], function() {
+  gulp.src("examples/**")
+    .pipe(gulp.dest("build/"));
+
   gulp.src("src/**")
     .pipe(gulp.dest("build/components/jawnsy/typed-text"));
 });
